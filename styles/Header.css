@@ -1,4 +1,3 @@
-/* Default styles for desktop (unchanged) */
 .header-container {
     padding: 10px;
     border-bottom: 1px solid #E5E5E5;
@@ -73,7 +72,7 @@
     color: #252020;
 }
 
-/* Mobile responsiveness */
+/* MobileScreen */
 @media (max-width: 768px) {
     .header-container{
         height: 55px;
@@ -107,7 +106,7 @@
 
 
 
-/* Tablet responsiveness */
+/* TabletScreen Work pending */
 /* @media (max-width: 1024px) {
     .header-container nav {
         padding-left: 50px;
