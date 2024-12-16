@@ -1,0 +1,120 @@
+/* Default styles for desktop (unchanged) */
+.header-container {
+    padding: 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.header-container nav .hamburger-menu{
+    display: none;
+}
+
+.logoImg {
+    height: 35px;
+    width: 35px;
+}
+
+.custom-svg {
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    cursor: pointer;
+}
+
+.header-container nav {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header-container nav div h1 {
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.header-container nav div span {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'SimplonNorm', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.options-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    gap: 100px;
+}
+
+.options-nav ul li {
+    cursor: pointer;
+    font-family: 'SimplonNorm', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #252020;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .header-container{
+        height: 55px;
+    }
+    .logoImg{
+        height: 20px;
+        width: 20px;
+    }
+    .header-container nav div h1{
+        font-size: 20px;
+    }
+    .header-container nav .icons-div .header-icons{
+        font-size: 20px;
+    }
+    .header-container nav .icons-div span{
+        display: none;
+    }
+    .options-nav{
+        display: none;
+    }
+    .menu-icon{
+        padding: 0 10px 0 10px;
+    }
+    .header-container nav {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+
+
+
+/* Tablet responsiveness */
+/* @media (max-width: 1024px) {
+    .header-container nav {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .options-nav ul {
+        gap: 50px; 
+    }
+} */

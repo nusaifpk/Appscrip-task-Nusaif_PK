@@ -1,0 +1,29 @@
+
+.category-sidebar span{
+  display: flex;
+  gap: 10px;
+  font-family: 'SimplonNorm', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.categories-text{
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+.categories-text h1{
+  font-family: 'SimplonNorm', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.categories-text span{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.categories-text span h1{
+  font-family: 'SimplonNorm', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+  
