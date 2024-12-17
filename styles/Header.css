@@ -72,7 +72,6 @@
     color: #252020;
 }
 
-/* MobileScreen */
 @media (max-width: 768px) {
     .header-container{
         height: 55px;
@@ -103,17 +102,67 @@
 }
 
 
+.mobile-sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px; 
+    height: 100%;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+    padding: 1rem;
+  }
+  
+  .mobile-sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu li {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .sidebar-menu li:hover {
+    color: #0070f3;
+  }
+  
+  .menu-icon {
+    display: block; 
+    cursor: pointer;
+  }
 
 
-
-/* TabletScreen Work pending */
-/* @media (max-width: 1024px) {
-    .header-container nav {
-        padding-left: 50px;
-        padding-right: 50px;
+  @media screen and (max-width: 768px) {
+    .options-nav {
+      display: none; 
     }
-
-    .options-nav ul {
-        gap: 50px; 
+  }
+  
+  @media screen and (min-width: 769px) {
+    .mobile-sidebar {
+      display: none; 
     }
-} */
+    .menu-icon {
+        display: none; 
+      }
+  }
+  

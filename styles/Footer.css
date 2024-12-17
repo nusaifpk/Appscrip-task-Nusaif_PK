@@ -76,9 +76,11 @@
 }
 
 .subscribe-form input {
+    border-radius: 8px;
     height: 47px;
     flex: 1; 
     min-width: 200px; 
+    padding-left: 10px;
 }
 
 .subscribe-form button {
@@ -183,3 +185,4 @@
         justify-content: center;
     }
 }
+

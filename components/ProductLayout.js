@@ -14,9 +14,7 @@ const ProductLayout = ({ children, sidebar }) => {
     <div className="product-layout">
       <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>{sidebar}</div>
       <div className="main-content">
-        <button className="sidebar-toggle" onClick={toggleSidebar}>
-          Toggle Sidebar
-        </button>
+        
         {children}
       </div>
     </div>

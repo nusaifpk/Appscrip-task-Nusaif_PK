@@ -123,18 +123,26 @@
   }
   
   .product-item img {
-    height: 400px !important;
-    width:  300px!important;
+    height: 399px !important;
+    width:  300px !important;
     object-fit: cover; 
   }
   
   .product-item h3 {
+    text-align: start;
     margin-top: 10px; 
     font-family: 'SimplonNorm', Arial, sans-serif;
     font-weight: 700;
+    font-size: 18px;
+    color: #252020;  
+  }
+  .product-item p {
+    font-family: 'SimplonNorm', Arial, sans-serif;
+    font-weight: 400;
     font-size: 14px;
     color: #252020;  
   }
+
   .products-header-text .filter-text{
     display: none;   
   }
@@ -186,5 +194,7 @@
     .products-header-text h1, .products-header-text h2{
       display: none;
     }
-    
+    .product-item p {
+      display: none;
+    }
   }
