@@ -137,10 +137,11 @@
     color: #252020;  
   }
   .product-item p {
+    text-align: start;
     font-family: 'SimplonNorm', Arial, sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #252020;  
+    color: #888792;  
   }
 
   .products-header-text .filter-text{
@@ -195,6 +196,6 @@
       display: none;
     }
     .product-item p {
-      display: none;
+      font-size: 10px;
     }
   }
